@@ -69,3 +69,12 @@ such that the code in the else statement executes. */
     // mathCalculator(5,6,'divide');
     // mathCalculator(5,6,'modulus');
     // mathCalculator(5,6,'hajibaji');
+
+
+
+
+    /*========================================================= 
+        Daily Practices
+    ============================================================*/
+
+    
