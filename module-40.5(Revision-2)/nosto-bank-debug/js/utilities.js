@@ -3,7 +3,7 @@ function getInputFieldValueById(inputFieldId) {
   const inputFieldValueString = inputField.value;
   inputField.value = "";
   const inputFieldValue = parseFloat(inputFieldValueString);
-  if(isNaN(inputFieldValueString) || inputFieldValue < 0){
+  if(isNaN(inputFieldValueString) || inputFieldValue < 0 || inputFieldValueString === ''){
     alert('please give me a correct amount')
     return 0;
   }
