@@ -65,7 +65,7 @@ const setProductInLocalStorage = (name, quantity) => {
 
 const display = () => {
     const products = getLocalStorageData();
-    // console.table(products);
+    console.table(products);
 
     const section = document.getElementById("all-products");
     section.textContent = "";
