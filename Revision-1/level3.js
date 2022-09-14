@@ -32,7 +32,7 @@ const setLocalStrorageData = (item) =>{
     }
     localStorage.setItem('names',JSON.stringify(data));
 }
-setLocalStrorageData('');
+setLocalStrorageData();
 const display = ()=>{
     const names = getLocalStorageData('names');
     console.log(names)
@@ -52,127 +52,6 @@ display()
 
 
 
-
-
-
-
-
-
-
 document.getElementById('reset').addEventListener('click',function(){
     localStorage.clear();
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // let getName = JSON.parse(localStorage.getItem('names'));
-    // let tableData = getName.map( name =>(
-    //     `
-    //     <tr>
-    //         <td>${name}</td>
-    //     </tr>
-    //     `
-    // )).join('');
-
-    // let tbody = document.getElementById('body');
-    // tbody.innerHTML = tableData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-// document.getElementById('delete-email').addEventListener('click',function(){
-//     localStorage.removeItem('email');
-// })
-// document.getElementById('add-email').addEventListener('click',function(){
-//     let inputValue = getInputValue('email-field');
-//     if(inputValue){
-//         localStorage.setItem('email',inputValue);
-//     }
-    
-// })
-// document.getElementById('delete-message').addEventListener('click',function(){
-//     localStorage.removeItem('email');
-// })
-// document.getElementById('add-message').addEventListener('click',function(){
-//     let inputValue = getInputValue('message-field');
-//     if(inputValue){
-//         localStorage.setItem('message',inputValue);
-//     }
-    
-// })
